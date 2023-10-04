@@ -1,0 +1,17 @@
+#tabla{
+    border-collapse: collapse;
+    margin-left: 350px;
+    
+}
+.ttd{
+    border:1px solid black;
+}
+.tth{
+    background-color: gray;
+    border: 1px solid black
+}
+#titulo{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
