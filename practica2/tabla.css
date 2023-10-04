@@ -1,11 +1,14 @@
+/*bordes de la tabla fuera*/
 #tabla{
     border-collapse: collapse;
     margin-left: 350px;
     
 }
+/*bordes negros de la clase ttd*/
 .ttd{
     border:1px solid black;
 }
+/*comentario en archivo css*/
 .tth{
     background-color: gray;
     border: 1px solid black
