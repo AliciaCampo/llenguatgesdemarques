@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Juedo del Calamar</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2? family= Alumni+Sans+Collegiate+One:ital@1 & display=swap">
+</head>
+<body>
+    <h1 id="titulo">Quiz Juego del calamar</h1><!--Ttitulo-->
+    <img  id="gif1" src="gif1.gif"><!--gif que tiene que estar en la carpeta-->
+    <form id="form"><!--abrimos formulario-->
+        <p>¿Cuanto sabes sobre el Juego del calamar?</p>
+        <label class="label">Email</label>
+        <input id="email" type="email" placeholder="escribe tu email"><br><br>
+        <label class="label">Nombre y apellidos</label>
+        <input id="nom" type="text" placeholder="escribe tu nombre"><br><br>
+        <label class="label">Edad</label>
+        <input id="edad" type="number" placeholder="escribe tu edad"><br><br>
+        <label for="serie">¿Donde vistes la serie?</label>
+        <select name="serie" id="serie">
+          <option value="netf">Netflix</option>
+          <option value="tel">Telegram</option>
+          <option value="web">Web</option>
+          <option value="otros">Otros</option>
+        </select><br><br>
+        <textarea placeholder="Deja tu opinion sobre la serie"></textarea><br><br>
+        <button id="boton1">ENVIAR</button>
+        <p id="empezamos">¡Empezemos!</p>
+    </form><!--cerramos formulario-->
+    <form id="formQuiz" action="formulari_enviat.html"><!--rediciona al otro html-->
+        <h2>¿Quien sale en la serie?</h2>
+        <label for="vehicle1">Kang Sae-byeok</label>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked><br>
+        <label for="vehicle2">Seong Gi-hum</label>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car"><br>
+        <label for="vehicle3">Li Jung</label>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"><br>
+        <!--Finaliza el checkbox-->
+        <!--Primer radio-->
+        <h2>¿Cuantos jugadores hay en total ?</h2>
+        <label for="100">100</label>
+        <input type="radio" id="100" name="jugadorestotal" value="100" checked><br>
+        <label for="456">456</label>
+        <input type="radio" id="456" name="jugadorestotal" value="456"><br>
+        <label for="465">465</label>
+        <input type="radio" id="465" name="jugadorestotal" value="465">
+        <!--Segundo radio-->
+        <h2>¿Cuales de estas figuras no es parte de la segunda competencia ?</h2>
+        <label for="paraguas">Paraguas</label>
+        <input type="radio" id="paraguas" name="figuras" value="paraguas" checked><br>
+        <label for="estrella">Estrella</label>
+        <input type="radio" id="estrella" name="figuras" value="estrella"><br>
+        <label for="cruz">Cruz</label>
+        <input type="radio" id="cruz" name="figuras" value="cruz"><br><br>
+        <button id="boton2" click="location.href='formulari_enviat.html'">ENVIAR</button><br><br>
+    </form>
+</body>
+</html>
