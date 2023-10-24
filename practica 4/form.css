@@ -63,3 +63,6 @@ h2{
     width: 100px;
     text-align: center;
 }
+input:focus {
+  color: red;
+}
