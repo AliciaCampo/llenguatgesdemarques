@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--se abre tienda stock-->
 <tienda>
-    <alimento category="salsa">
+    <alimento category="salsa"> <!--empieza aqui la categoria salsa-->
         <title lang="es">Salsa soja</title>
         <precio>2 €</precio>
     </alimento>
     <alimento category="salsa">
+        <title lang="es">Shoyu</title>
+        <precio>2,75 €</precio>
+    </alimento>
+    <alimento category="salsa">
         <title lang="es">Siracha</title>
         <precio>4 €</precio>
+    </alimento>
+    <alimento category="salsa">
+        <title lang="es">Ra -yu</title>
+        <precio>2€</precio>
     </alimento>
     <alimento category="salsa">
         <title lang="es">Teriyaki</title>
@@ -16,7 +25,7 @@
         <title lang="es">Salasa para ramen</title>
         <precio>3,50€</precio>
     </alimento>
-    <alimento category="fideos">
+    <alimento category="fideos"><!--empieza aqui la categoria fideos-->
         <title lang="es">Fideos picantes</title>
         <precio>2€</precio>
     </alimento>
@@ -36,11 +45,31 @@
         <title lang="es">Fideos extra picantes</title>
         <precio>2€</precio>
     </alimento>
-    <alimento category="especie">
+    <alimento category="especie"><!--empieza aqui la categoria especie-->
         <title lang="es">Curry </title>
         <precio>4€</precio>
     </alimento>
-    <alimento category="sopas">
+    <alimento category="especie">
+        <title lang="es">Miso</title>
+        <precio>3€</precio>
+    </alimento>
+    <alimento category="especie">
+        <title lang="es">Shichimi togarashi</title>
+        <precio>5€</precio>
+    </alimento>
+    <alimento category="especie">
+        <title lang="es">Garlic</title>
+        <precio>4,50€</precio>
+    </alimento>
+    <alimento category="especie">
+        <title lang="es">Ginger</title>
+        <precio>2,20€</precio>
+    </alimento>
+    <alimento category="especie">
+        <title lang="es">Menma</title>
+        <precio>1,75€</precio>
+    </alimento>
+    <alimento category="sopas"><!--empieza aqui la categoria sopas-->
         <title lang="es">Sopa sabor pollo</title>
         <precio>4€</precio>
     </alimento>
@@ -56,7 +85,5 @@
         <title lang="es">Sopa sabor verduras</title>
         <precio>3,50€</precio>
     </alimento>
-
-
-
 </tienda>
+<!--se cierra tienda stock-->
