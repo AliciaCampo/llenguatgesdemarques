@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+    <alimento category="salsa">
+        <title lang="es">Salsa soja</title>
+        <precio>2 €</precio>
+    </alimento>
+    <alimento category="salsa">
+        <title lang="es">Siracha</title>
+        <precio>4 €</precio>
+    </alimento>
+    <alimento category="salsa">
+        <title lang="es">Teriyaki</title>
+        <precio>2,50 €</precio>
+    </alimento>
+    <alimento category="salsa">
+        <title lang="es">Salasa para ramen</title>
+        <precio>3,50€</precio>
+    </alimento>
+    <alimento category="fideos">
+        <title lang="es">Fideos picantes</title>
+        <precio>2€</precio>
+    </alimento>
+    <alimento category="fideos">
+        <title lang="es">Fideos sabor pollo</title>
+        <precio>2€</precio>
+    </alimento>
+    <alimento category="fideos">
+        <title lang="es">Fideos sabor marisco</title>
+        <precio>2€</precio>
+    </alimento>
+    <alimento category="fideos">
+        <title lang="es">Fideos sabor a ternera</title>
+        <precio>2€</precio>
+    </alimento>
+    <alimento category="fideos">
+        <title lang="es">Fideos extra picantes</title>
+        <precio>2€</precio>
+    </alimento>
+    <alimento category="especie">
+        <title lang="es">Curry </title>
+        <precio>4€</precio>
+    </alimento>
+    <alimento category="sopas">
+        <title lang="es">Sopa sabor pollo</title>
+        <precio>4€</precio>
+    </alimento>
+    <alimento category="sopas">
+        <title lang="es">Sopa sabor tenera</title>
+        <precio>4€</precio>
+    </alimento>
+    <alimento category="sopas">
+        <title lang="es">Sopa sabor marisco</title>
+        <precio>4,50€</precio>
+    </alimento>
+    <alimento category="sopas">
+        <title lang="es">Sopa sabor verduras</title>
+        <precio>3,50€</precio>
+    </alimento>
+
+
+
+</tienda>
