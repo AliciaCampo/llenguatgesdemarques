@@ -69,19 +69,19 @@
         <title lang="es">Menma</title>
         <precio>1,75€</precio>
     </alimento>
-    <alimento category="sopas" id="P015"><!--empieza aqui la categoria sopas-->
+    <alimento category="sopas" id="P016"><!--empieza aqui la categoria sopas-->
         <title lang="es">Sopa sabor pollo</title>
         <precio>4€</precio>
     </alimento>
-    <alimento category="sopas" id="P016">
+    <alimento category="sopas" id="P017">
         <title lang="es">Sopa sabor tenera</title>
         <precio>4€</precio>
     </alimento>
-    <alimento category="sopas"id="P017">
+    <alimento category="sopas"id="P018">
         <title lang="es">Sopa sabor marisco</title>
         <precio>4,50€</precio>
     </alimento>
-    <alimento category="sopas"id="P018">
+    <alimento category="sopas"id="P019">
         <title lang="es">Sopa sabor verduras</title>
         <precio>3,50€</precio>
     </alimento>
