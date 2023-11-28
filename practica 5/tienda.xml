@@ -5,83 +5,83 @@
         <title lang="es">Salsa soja</title>
         <precio>2 €</precio>
     </alimento>
-    <alimento category="salsa">
+    <alimento category="salsa" id="P001">
         <title lang="es">Shoyu</title>
         <precio>2,75 €</precio>
     </alimento>
-    <alimento category="salsa">
+    <alimento category="salsa"id="P002">
         <title lang="es">Siracha</title>
         <precio>4 €</precio>
     </alimento>
-    <alimento category="salsa">
+    <alimento category="salsa"id="P002">
         <title lang="es">Ra -yu</title>
         <precio>2€</precio>
     </alimento>
-    <alimento category="salsa">
+    <alimento category="salsa" id="P003">
         <title lang="es">Teriyaki</title>
         <precio>2,50 €</precio>
     </alimento>
-    <alimento category="salsa">
+    <alimento category="salsa"id="P004">
         <title lang="es">Salasa para ramen</title>
         <precio>3,50€</precio>
     </alimento>
-    <alimento category="fideos"><!--empieza aqui la categoria fideos-->
+    <alimento category="fideos" id="P005"><!--empieza aqui la categoria fideos-->
         <title lang="es">Fideos picantes</title>
         <precio>2€</precio>
     </alimento>
-    <alimento category="fideos">
+    <alimento category="fideos"id="P006">
         <title lang="es">Fideos sabor pollo</title>
         <precio>2€</precio>
     </alimento>
-    <alimento category="fideos">
+    <alimento category="fideos"id="P007">
         <title lang="es">Fideos sabor marisco</title>
         <precio>2€</precio>
     </alimento>
-    <alimento category="fideos">
+    <alimento category="fideos"id="P008">
         <title lang="es">Fideos sabor a ternera</title>
         <precio>2€</precio>
     </alimento>
-    <alimento category="fideos">
+    <alimento category="fideos"id="P009">
         <title lang="es">Fideos extra picantes</title>
         <precio>2€</precio>
     </alimento>
-    <alimento category="especie"><!--empieza aqui la categoria especie-->
+    <alimento category="especie"id="P010"><!--empieza aqui la categoria especie-->
         <title lang="es">Curry </title>
         <precio>4€</precio>
     </alimento>
-    <alimento category="especie">
+    <alimento category="especie"id="P011">
         <title lang="es">Miso</title>
         <precio>3€</precio>
     </alimento>
-    <alimento category="especie">
+    <alimento category="especie"id="P012">
         <title lang="es">Shichimi togarashi</title>
         <precio>5€</precio>
     </alimento>
-    <alimento category="especie">
+    <alimento category="especie"id="P013">
         <title lang="es">Garlic</title>
         <precio>4,50€</precio>
     </alimento>
-    <alimento category="especie">
+    <alimento category="especie"id="P014">
         <title lang="es">Ginger</title>
         <precio>2,20€</precio>
     </alimento>
-    <alimento category="especie">
+    <alimento category="especie"id="P015">
         <title lang="es">Menma</title>
         <precio>1,75€</precio>
     </alimento>
-    <alimento category="sopas"><!--empieza aqui la categoria sopas-->
+    <alimento category="sopas" id="P015"><!--empieza aqui la categoria sopas-->
         <title lang="es">Sopa sabor pollo</title>
         <precio>4€</precio>
     </alimento>
-    <alimento category="sopas">
+    <alimento category="sopas" id="P016">
         <title lang="es">Sopa sabor tenera</title>
         <precio>4€</precio>
     </alimento>
-    <alimento category="sopas">
+    <alimento category="sopas"id="P017">
         <title lang="es">Sopa sabor marisco</title>
         <precio>4,50€</precio>
     </alimento>
-    <alimento category="sopas">
+    <alimento category="sopas"id="P018">
         <title lang="es">Sopa sabor verduras</title>
         <precio>3,50€</precio>
     </alimento>
