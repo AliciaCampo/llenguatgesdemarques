@@ -1,0 +1,21 @@
+
+<!ELEMENT computerStore (computers, components, clients)>
+<!ELEMENT computers (computer)*>
+<!ELEMENT computer (name, price, quantity, pcType, idProduct)>
+<!ATTLIST computer idProduct ID #REQUIRED>
+<!ELEMENT components (component)*>
+<!ELEMENT component (name, price, quantity, comType, idProduct)>
+<!ATTLIST component idProduct ID #REQUIRED>
+<!ATTLIST component comType (cpu | gpu) #REQUIRED>
+<!ELEMENT clients (client)*>
+<!ELEMENT client (name, address, contact, shoppingCart)>
+<!ATTLIST client clientID ID #REQUIRED>
+<!ATTLIST client clientType (Regular | Premium) #REQUIRED>
+<!ELEMENT address (street, city, country)>
+<!ELEMENT contact (phone, email)>
+<!ATTLIST contact phoneNumber ID #REQUIRED>
+<!ELEMENT shoppingCart (date, product)*>
+<!ATTLIST shoppingCart date CDATA #REQUIRED>
+<!ELEMENT product (componentBuyed, quantity)>
+<!ELEMENT componentBuyed (comType, idProduct)>
+<!ATTLIST componentBuyed  quantity CDATA #REQUIRED>
