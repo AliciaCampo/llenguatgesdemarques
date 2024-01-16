@@ -35,18 +35,7 @@
                 "inches":9,
                 "stock":true,
                 "price":999,
-                "characteristics":
-                [
-                    {
-                        "characteristic":"5000mhA baterry"
-                    },
-                    {
-                        "characteristic":"Super AMOLED Plus"
-                    },
-                    {
-                        "characteristic":"USB-C"
-                    }
-                ]
+                "characteristics":["5000mhA baterry","Super AMOLED Plus","USB-C"]
                 
             }
     ]
