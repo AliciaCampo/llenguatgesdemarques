@@ -26,7 +26,7 @@
                 "company":"Huawei",
                 "inches":10.4,
                 "stock":false,
-                "price":0,
+                "price":null,
                 "moneda":"$"
             },
             {
