@@ -1,0 +1,105 @@
+{
+    "pokemons":
+    [
+        {
+            "nombre":"Charmander",
+            "id":"0004",
+            "tipo":"fuego",
+            "peso":8.5,
+            "altura":0.6,
+            "estadisticas": ["Velocidad 3","Fortaleza 5","Precision 4","Resistencia 3"],
+            "movimientos":[
+            {
+                "nombremv":"Arañazo",
+                "descripcion":"",
+                "potencia":"",
+                "contacto":""
+
+            },
+            {
+                "nombremv":"Gruñido",
+                "descripcion":"",
+                "potencia":"",
+                "contacto":""
+
+            },
+            {
+                "nombremv":"Ascuas",
+                "descripcion":"",
+                "potencia":"",
+                "contacto":""
+            },
+            {
+                "nombremv":"Pantalla de humo",
+                "descripcion":"",
+                "potencia":"",
+                "contacto":""
+            },
+            {
+                "nombremv":"Dragoaliento",
+                "descripcion":"",
+                "potencia":"",
+                "contacto":""
+            },
+            {
+                "nombremv":"Colmillo ingneo",
+                "descripcion":"",
+                "potencia":"",
+                "contacto":""
+            },
+            {
+                "nombremv":"Cuchillada",
+                "descripcion":"",
+                "potencia":"",
+                "contacto":""
+            },
+            {
+                "nombremv":"Lanzallamas",
+                "descripcion":"",
+                "potencia":"",
+                "contacto":""
+            },
+            {
+                "nombremv":"Cara susto",
+                "descripcion":"",
+                "potencia":"",
+                "contacto":""
+            },
+            {
+                "nombremv":"Giro fuego",
+                "descripcion":"",
+                "potencia":"",
+                "contacto":""
+            },
+            {
+                "nombremv":"Infierno",
+                "descripcion":"",
+                "potencia":"",
+                "contacto":""
+            },
+            {
+                "nombremv":"Envite igneo",
+                "descripcion":"",
+                "potencia":"",
+                "contacto":""
+            }
+        ],
+
+            "imagen":"https://www.wikidex.net/wiki/Charmander#Escarlata_y_P%C3%BArpura-0" ,            
+            "evoluciones":[
+                {
+                    "identificador":"Charmeleon",
+                    "nivel":"16"
+                },
+                {
+                    "identificador":"Charizard",
+                    "nivel":"36"
+                }
+            ]
+
+            
+            
+            
+        }
+    ]
+}
