@@ -3,6 +3,7 @@
     [
         {
                 "name":"Matebook",
+                "type":"computer",
                 "company":"Huawei",
                 "inches":13,
                 "stock":true,
