@@ -6,7 +6,9 @@
             "id":"0004",
             "tipo":"fuego",
             "peso":8.5,
+            "peso_medida": "kg",
             "altura":0.6,
+            "medida_altura": "metros",
             "estadisticas": [
                 {
                     "Velocidad":3,
@@ -107,6 +109,231 @@
             
             
             
+        },
+        {
+            "id": "0921",
+            "nombre": "Pawmi",
+            "tipo": "Eléctrico",
+            "peso": 2.5,
+            "peso_medida": "kg",
+            "altura": 0.3,
+            "medida_altura": "metros",
+            "estadisticas":[
+                {
+                    "velocidad":60,
+                    "ataque":50,
+                    "PS":45,
+                    "defensa":20
+                }
+            ],
+            "movimientos": [
+                {
+                    "nom": "Arañazo",
+                    "descripcion": "Arañazo causa daño y no tiene ningún efecto secundario.",
+                    "potencia": 40,
+                    "contacto": true
+                },
+                {
+                    "nom": "Gruñido",
+                    "descripcion": "Gruñido es un movimiento de sonido que baja un nivel el ataque del objetivo",
+                    "potencia": null,
+                    "contacto": true
+                },
+                {
+                    "nom": "Impactrueno",
+                    "descripcion":"Impactrueno causa daño y tiene una probabilidad del 10% de paralizar al objetivo.",
+                    "potencia": 40,
+                    "contacto": true
+                },
+                {
+                    "nom": "Ataque rápido",
+                    "descripcion": "Ataque rápido causa daño y es un movimiento de alta prioridad",
+                    "potencia": 40,
+                    "contacto": true
+                },
+                {
+                    "nom": "Carga",
+                    "descripcion":"Carga duplica la potencia del movimiento de tipo eléctrico que se use en el turno siguiente.",
+                    "potencia": null,
+                    "contacto": true
+                },
+                {
+                    "nom": "Moflete estático",
+                    "descripcion":"Moflete estático causa daño y siempre paraliza al objetivo.",
+                    "potencia": 20,
+                    "contacto": true
+                },
+                {
+                    "nom": "Excavar",
+                    "descripcion":"El usuario cava en el primer turno y el segundo turno ataca.",
+                    "potencia": 80,
+                    "contacto": true
+                },
+                {
+                    "nom": "Mordisco",
+                    "descripcion":"Mordisco pasa a ser de tipo siniestro y ahora la probabilidad de amedrentar al objetivo es del 30%.",
+                    "potencia": 60,
+                    "contacto": true
+                },
+                {
+                    "nom": "Chispa",
+                    "descripcion":"Chispa causa daño y tiene una probabilidad del 30% de paralizar al objetivo.",
+                    "potencia": 65,
+                    "contacto": true
+                },
+                {
+                    "nom": "Onda trueno",
+                    "descripcion": "Onda trueno paraliza al oponente.",
+                    "potencia": null,
+                    "contacto": true
+                },
+                {
+                    "nom": "Danza amiga",
+                    "descripcion":"Danza amiga cambia temporalmente la habilidad del objetivo para que sea la misma que la del usuario",
+                    "potencia": null,
+                    "contacto": true
+                },
+                {
+                    "nom": "Atizar",
+                    "descripcion":"Atizar causa daño y no tiene ningún efecto secundario.",
+                    "potencia": 80,
+                    "contacto": true
+                },
+                {
+                    "nom": "Chispazo",
+                    "descripcion":"Chispazo causa daño y tiene una probabilidad del 30% de paralizar al oponente. ",
+                    "potencia": 80,
+                    "contacto": true
+                },
+                {
+                    "nom": "Agilidad",
+                    "descripcion":"Agilidad aumenta en dos niveles la velocidad del usuario.",
+                    "potencia": null,
+                    "contacto": true
+                },
+                {
+                    "nom": "Voltio cruel",
+                    "descripcion":"Voltio cruel causa daño y el usuario recibe un daño de retroceso igual a 1/4 de los PS restados al objetivo. ",
+                    "potencia": 90,
+                    "contacto": true
+                }
+            ],
+            "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/68/latest/20220601131610/Pawmi.png/300px-Pawmi.pngs",
+            "evoluciones": [
+                {
+                    "identificador": "0922",
+                    "nombre": "Pawmo",
+                    "nivel_necesario": 18
+                },
+                {
+                    "identificador": "0923",
+                    "nombre": "Pawmot",
+                    "caracteristicas_para_evolucionar": "Al subir un nivel después de dar 1000 pasos en modo enviar Pokémon."
+                }
+            ]
+        },
+        {
+            "id":"0906",
+            "nombre":"Sprigatito",
+            "tipo":"planta",
+            "peso":4.1,
+            "peso_medida": "kg",
+            "altura":0.4,
+            "medida_altura": "metros",
+            "estadísticas": ["velocidad 65", "fortaleza 54","precisión ?"],
+            "movimientos": [
+                {
+                    "nombre":"Arañazo",
+                    "descripción":"Arañazo causa daño y no tiene ningún efecto secundario",
+                    "potencia":40,
+                    "contacto":true
+                },
+                {
+                    "nombre":"Látigo",
+                    "descripción":"Látigo baja un nivel la defensa del oponente. En combates dobles y triples afecta a todos los oponentes adyacentes. No afecta a Pokémon con las habilidades cuerpo puro, humo blanco o sacapecho.",
+                    "potencia":null,
+                    "contacto":false
+                },
+                {
+                    "nombre":"Follaje",
+                    "descripción":"Follaje causa daño y no tiene ningún efecto secundario",
+                    "potencia":40,
+                    "contacto":false
+                },
+                {
+                    "nombre":"Mordisco",
+                    "descripción":"Mordisco es un movimiento de tipo siniestro que causa daño y tiene una probabilidad del 30% de amedrentar al objetivo.",
+                    "potencia":60,
+                    "contacto":false
+                },
+                {
+                    "nombre":"Afilagarras",
+                    "descripción":"Afilagarras aumenta el ataque y la preciión del usuario en un nivel cada uno.",
+                    "potencia":null,
+                    "contacto":false
+                },
+                {
+                    "nombre":"Hoja mágica",
+                    "descripción":"Hoja mágica causa daño y no tiene ningún efecto secundario. Este ataque nunca falla, ignorando cambios en la precisión del usuario y la evasión del objetivo. Sin embargo, no puede golpear a Pokémon que estén usando bote, buceo, excavar, golpe fantasma, golpe umbrío o vuelo.",
+                    "potencia":60,
+                    "contacto":false
+                },
+                {
+                    "nombre":"Ataque rápido",
+                    "descripción":"Ataque rápido causa daño y es un movimiento de alta prioridad (+1). Si el oponente no usa ningún ataque de alta prioridad, el usuario siempre atacará primero, independientemente de las velocidades del usuario y del oponente. Si el oponente también usa un ataque de aumento de prioridad +1 atacará primero el que tenga más velocidad.",
+                    "potencia":"40",
+                    "contacto":true
+                },
+                {
+                    "nombre":"Bomba germen",
+                    "descripción":"Bomba germen causa daño y no tiene ningún efecto secundario. Los Pokémon con la habilidad antibalas son inmunes a bomba germen.",
+                    "potencia":80,
+                    "contacto":false
+                },
+                {
+                    "nombre":"Ida y vuelta",
+                    "descripción":"Ida y vuelta causa daño al Pokémon objetivo y, a continuación, fuerza el cambio del usuario por otro Pokémon del equipo, pudiéndose elegir qué Pokémon sale al combate en su lugar. En el caso de que el usuario sea el único del equipo o el último miembro no debilitado el movimiento solamente causará daño. Al usar ida y vuelta contra un Pokémon que lleve equipado un botón escape o al activarle la habilidad huida o retirada, ese Pokémon será cambiado, pero no el que usó ida y vuelta. Este movimiento permite al usuario cambiarse incluso cuando esté atrapado o apresado por movimientos como giro fuego y telaraña o habilidades como trampa arena.",
+                    "potencia":70,
+                    "contacto":true
+                },
+                {
+                    "nombre":"Abatidoras",
+                    "descripción":"Abatidoras cambia la habilidad del objetivo por insomnio temporalmente, hasta que este sea cambiado por otro Pokémon o finalice el combate. Abatidoras no puede cambiar las habilidades agrupamiento, ausente, banco, cambio táctico, cara de hielo, disfraz, escudo limitado, fuerte afecto, letargo perenne, multitipo, sistema alfa ni tragamisil.",
+                    "potencia": null,
+                    "contacto":false
+                },
+                {
+                    "nombre":"Cuchillada",
+                    "descripción":"Cuchillada causa daño y tiene una alta probabilidad de asestar un golpe crítico (12,5%). Cuchillada aumenta su potencia un 50% más si es usado por un Pokémon con la habilidad cortante.",
+                    "potencia":70,
+                    "contacto":true
+                },
+                {
+                    "nombre":"Energibola",
+                    "descripción":"Energibola causa daño y tiene una probabilidad del 10% de bajar un nivel la defensa especial del objetivo.",
+                    "potencia":90,
+                    "contacto":false
+                },
+                {
+                    "nombre":"Carantoña",
+                    "descripción":"Carantoña causa daño y tiene una probabilidad del 10% de bajar en 1 nivel el ataque del objetivo.",
+                    "potencia":90,
+                    "contacto":false
+                }
+            ],
+            "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/906.png",
+            "evoluciones": [
+                {
+                    "identificador":"Floragato",
+                    "nivel":16
+                },
+                {
+                    "identificador":"Meowscarada",
+                    "nivel":36
+                }
+            ]
         }
+        
+
     ]
 }
