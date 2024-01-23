@@ -7,7 +7,14 @@
             "tipo":"fuego",
             "peso":8.5,
             "altura":0.6,
-            "estadisticas": ["Velocidad 3","Fortaleza 5","Precision 4","Resistencia 3"],
+            "estadisticas": [
+                {
+                    "Velocidad":3,
+                    "Fortaleza":5,
+                    "Precision":4,
+                    "Resistencia": 3
+                }
+            ],
             "movimientos":[
             {
                 "nombremv":"Arañazo",
