@@ -240,7 +240,14 @@
             "peso_medida": "kg",
             "altura":0.4,
             "medida_altura": "metros",
-            "estadísticas": ["velocidad 65", "fortaleza 54","precisión ?"],
+            "estadísticas": [
+                {
+                    "velocidad" : 65,
+                    "fortaleza" :54,
+                    "defensa": 99
+
+                }
+            ],
             "movimientos": [
                 {
                     "nombre":"Arañazo",
