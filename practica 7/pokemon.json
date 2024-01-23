@@ -11,77 +11,77 @@
             "movimientos":[
             {
                 "nombremv":"Arañazo",
-                "descripcion":"",
-                "potencia":"",
-                "contacto":""
+                "descripcion":"Arañazo causa daño y no tiene ningún efecto secundario",
+                "potencia":40,
+                "contacto":"Si"
 
             },
             {
                 "nombremv":"Gruñido",
-                "descripcion":"",
-                "potencia":"",
-                "contacto":""
+                "descripcion":"Movimiento de sonido que baja un nivel del ataque objetivo",
+                "potencia":null,
+                "contacto":"No"
 
             },
             {
                 "nombremv":"Ascuas",
-                "descripcion":"",
-                "potencia":"",
-                "contacto":""
+                "descripcion":"Ascuas causa daño y tiene una probabilidad del 10% de quemar al objetivo.",
+                "potencia":40,
+                "contacto":"No"
             },
             {
                 "nombremv":"Pantalla de humo",
-                "descripcion":"",
-                "potencia":"",
-                "contacto":""
+                "descripcion":"Reduce un nivel de la presions del objetivo",
+                "potencia": null,
+                "contacto":"No"
             },
             {
                 "nombremv":"Dragoaliento",
-                "descripcion":"",
-                "potencia":"",
-                "contacto":""
+                "descripcion":"Causa daño con probalidades del 30% de paralizar",
+                "potencia":60,
+                "contacto":"No"
             },
             {
                 "nombremv":"Colmillo ingneo",
-                "descripcion":"",
-                "potencia":"",
-                "contacto":""
+                "descripcion":"Causa daño y tiene 10% de porbabilidad del 10% de quemar al rival",
+                "potencia":65,
+                "contacto":"Si"
             },
             {
                 "nombremv":"Cuchillada",
-                "descripcion":"",
-                "potencia":"",
-                "contacto":""
+                "descripcion":"Causa daño y tiene alta probailidad de asestar un golpe critico",
+                "potencia":70,
+                "contacto":"Si"
             },
             {
                 "nombremv":"Lanzallamas",
-                "descripcion":"",
-                "potencia":"",
-                "contacto":""
+                "descripcion":"Lanzallamas causa daño y tiene una probabilidad del 10% de quemar al objetivo.",
+                "potencia":95,
+                "contacto":"No"
             },
             {
                 "nombremv":"Cara susto",
-                "descripcion":"",
-                "potencia":"",
-                "contacto":""
+                "descripcion":"Cara susto baja en dos niveles la velocidad del objetivo. El movimiento tiene una precisión del 90%.",
+                "potencia":null,
+                "contacto":"No"
             },
             {
                 "nombremv":"Giro fuego",
-                "descripcion":"",
-                "potencia":"",
-                "contacto":""
+                "descripcion":"Daño casa 2-5  turnos",
+                "potencia":35,
+                "contacto":"No"
             },
             {
                 "nombremv":"Infierno",
-                "descripcion":"",
-                "potencia":"",
-                "contacto":""
+                "descripcion":"Causa daño y si acierta, siempre quema al objetivo",
+                "potencia":100,
+                "contacto":"No"
             },
             {
                 "nombremv":"Envite igneo",
-                "descripcion":"",
-                "potencia":"",
-                "contacto":""
+                "descripcion":"Puede descongelar al momento ",
+                "potencia":120,
+                "contacto":"Si"
             }
         ],
 
