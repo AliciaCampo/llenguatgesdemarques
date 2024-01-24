@@ -8,6 +8,7 @@ fun isSegonMovimentDeContacte(pokemon):
      esContacto = segonMoviment["contacto"]
      return esContacto
 
+
 // c
 fun getSumaEstadistiques(pokemon):
      suma = 0;
