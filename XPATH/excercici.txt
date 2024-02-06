@@ -1,0 +1,6 @@
+/sistemas_operatius/sistemas/nom//node()
+/sistemas_operatius/sistemas[2]
+/sistemas_operatius/sistemas[2]/nom/node()
+/sistemas_operatius/sistemas[propietari="Google"]/any_llancament/node()
+/sistemas_operatius//sistemas[any_llancament >= 2001 and any_llancament > 1900]/node()
+/sistemas_operatius//sistemas[@versio = "12"]/nom/node()
