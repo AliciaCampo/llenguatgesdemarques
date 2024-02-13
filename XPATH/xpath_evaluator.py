@@ -8,7 +8,7 @@ def main():
     ####################################
 
     ############## XPATH ###############
-    xpath = '//objectiu[1]/../..'
+    xpath = '/llenguatges/llenguatge/nom'
     ####################################
 
     # Evalua l'expressió XPath
