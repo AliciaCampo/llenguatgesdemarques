@@ -4,7 +4,7 @@ from sys import stdout
 
 def main():
     ############ FITXER XML ############
-    tree = etree.parse('ods.xml')
+    tree = etree.parse('programming.xml')
     ####################################
 
     ############## XPATH ###############
